@@ -1,0 +1,36 @@
+#langtons_ant {
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+
+#langtons_ant td {
+	border: 1px solid grey;
+	margin: 0;
+	padding: 0;
+	height: 10px;
+	width: 10px;
+}
+
+#langtons_ant td.alive {
+	background-color: black;
+}
+
+#langtons_ant td.dead {
+	background-color: white;
+}
+
+#langtons_ant td.ant {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJUlEQVQImWP4z8Dwn4GBgQGdZvjPwPAfhjEEcEowYDPrPwPDfwDyyiHfvHpvkQAAAABJRU5ErkJggg==);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 5px 5px;
+}
+
+#start_button {
+	height: 30px;
+	width: 100px;
+}
+
+#counter {
+	width: 60px;
+}
